@@ -27,6 +27,27 @@
 </head>
 
 <body>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '503237540058488',
+        xfbml: true,
+        version: 'v2.10'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <header>
     <p class="self-introduction">Kento Ichikawa's Design</p>
     <h1 class="top-title">Ittyanm<span class="trade">&trade;</span></h1>
@@ -178,6 +199,8 @@
     </nav>
     <a class="copy" href="mailto:ittyanm@gmail.com">&copy;<i>Ittyanm</i>
    </a>
+    <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+    </div>
   </footer>
   <svg style="display: block; width: 0; height: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
