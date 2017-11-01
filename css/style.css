@@ -88,6 +88,18 @@
    fill: #df4a32;
  }
 
+ /* drag */
+
+ ::-moz-selection {
+   background: #eeeeee;
+   color: #ffffff;
+ }
+
+ ::selection {
+   background: #eeeeee;
+   color: #ffffff;
+ }
+
  /* font */
 
  header .self-introduction {
