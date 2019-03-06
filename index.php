@@ -4,26 +4,26 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name=”keywords” content="Ittyanm,Web,Designer,Webデザイナー,">
-  <meta name="description" content="都内で活躍するWebデザイナーのIttyanm/いっちゃん">
+  <meta name="keyword" content="Ittyanm,Web,Designer,Webデザイナー,">
+  <meta name="description" content="渋谷を拠点とするデザイナーのいっちゃん&40;Ittyanm&41;です。">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1c1d22">
   <!-- 共通項目 -->
-  <meta property="og:title" content="Ittyanm&trade; / いっちゃん" />
+  <meta property="og:title" content="いっちゃん/Ittyanm&trade;" />
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ittyanm.github.io/Ittyanm/" />
   <meta property="og:image" content="https://ittyanm.github.io/Ittyanm/Ittyam-OGP.png" />
   <meta property="og:site_name" content="Ittyanm&trade; / いっちゃん" />
-  <meta property="og:description" content="都内で活躍するWebデザイナーのIttyanm/いっちゃん" />
+  <meta property="og:description" content="渋谷を拠点とするデザイナーのいっちゃん&40;Ittyanm&41;です。" />
   <!-- Facebook用 -->
   <meta property="fb:app_id" content="503237540058488" />
   <meta property="article:publisher" content="https://www.facebook.com/Ittyanm-1845844322394484/" />
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i" rel="stylesheet">
-  <title>Ittyanm&trade; / いっちゃん</title>
+  <title>いっちゃん/Ittyanm&trade;</title>
 </head>
 
 <body>
@@ -77,7 +77,7 @@
       <h2 class="work-theme">Art Direction</h2>
       <div class="grid">
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -87,7 +87,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3 class="title">Desigh&amp;Heart</h3>
             <p class="">Life is Tech !</p>
@@ -97,7 +97,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -107,7 +107,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -117,7 +117,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -127,7 +127,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -137,7 +137,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
@@ -147,7 +147,7 @@
         </div>
         <!-- .grid-item -->
         <div class="grid-item">
-          <img src="./img/Design-Heart-Wallpaper.png" alt="" width="288">
+          <img src="./assets/img/Design-Heart-Wallpaper.png" alt="" width="288">
           <div class="caption">
             <h3>Desigh&amp;Heart</h3>
             <p>Life is Tech !</p>
