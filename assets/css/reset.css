@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 html,
 body,
 div,
@@ -48,69 +49,84 @@ section,
 summary,
 audio,
 video {
- margin: 0;
- padding: 0;
- border: 0;
- outline: 0;
- font-style: normal;
- font-weight: 400;
- font-size: 100%;
- /* 16px=12pt */
- font: inherit;
- vertical-align: baseline;
- background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 a {
- margin: 0;
- padding: 0;
- font-size: 100%;
- vertical-align: baseline;
- background: transparent;
- text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 body {
- line-height: 1;
+  line-height: 1;
 }
 
 nav ol,
 nav ul {
- list-style: none;
+  list-style: none;
+}
+
+ol,
+ul {
+  list-style: none;
 }
 
 blockquote,
 q {
- quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
- content: '';
- content: none;
+  content: '';
+  content: none;
 }
 
 table {
- border-collapse: collapse;
- border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 input,
 select {
- vertical-align: middle;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 html {
- box-sizing: border-box;
- font-size: 0.625em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* デフォルト1em=16px=12pt */
+  font-size: 0.625em;
+  /*  1em=10px */
 }
 
 *,
 *:after,
 *:before {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
