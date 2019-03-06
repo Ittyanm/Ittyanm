@@ -1,106 +1,214 @@
- @charset "UTF-8";
- /* display only */
+@charset "UTF-8";
+/* ↓ BREAKPOINT ↓ */
+/* Display only */
+@media only screen and (max-width: 1024px) {}
+/* Tablet only */
+@media only screen and (max-width: 768px) {}
+/* Smartphone only */
+@media only screen and (max-width: 480px) {}
+/* ↑ BREAKPOINT ↑ */
+@font-face {
+   font-family: "Yu Gothic";
+   src: local("Yu Gothic Medium");
+   font-weight: 100;
+}
+@font-face {
+   font-family: "Yu Gothic";
+   src: local("Yu Gothic Medium");
+   font-weight: 200;
+}
+@font-face {
+   font-family: "Yu Gothic";
+   src: local("Yu Gothic Medium");
+   font-weight: 300;
+}
+@font-face {
+   font-family: "Yu Gothic";
+   src: local("Yu Gothic Medium");
+   font-weight: 400;
+}
+@font-face {
+   font-family: "Yu Gothic";
+   src: local("Yu Gothic Bold");
+   font-weight: bold;
+}
+/* ↓ COMMON ↓ */
+body {
+   font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', 'Arial', "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
+   -webkit-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   background: #FFF;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+ }
 
- @media only screen and (max-width: 1024px) {}
+ /* ↑ COMMON ↑ */
+/* ↓ COLOR ↓ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
 
- /* tablet only */
+p {
+  color: #333333;
+}
 
- @media only screen and (max-width: 768px) {}
+a {
+  color: #190101;
+}
 
- /* smartphone only */
+body {
+  color: #1C1D22;
+}
 
- @media only screen and (max-width: 480px) {}
+.trade,
+.copy {
+  color: #dddddd;
+}
 
- /* color */
+.footer-icon {
+  background: #dddddd;
+}
 
+.footer-icon:hover {
+  background: #eeeeee;
+}
+
+.footer-icon .icon {
+  fill: #aaaaaa;
+  opacity: 1;
+}
+/* twitter */
+.icon-twitter:hover {
+  fill: #00b6f1;
+}
+/* facebook */
+.icon-facebook:hover {
+  fill: #3b5998;
+}
+/* instagram */
+.icon-instagram:hover {
+  fill: #c32aa3;
+}
+/* github */
+.icon-github:hover {
+  fill: #6e5494;
+}
+/* pinterest */
+.icon-pinterest:hover {
+  fill: #cb2027;
+}
+/* google+ */
+.icon-googleplus:hover {
+  fill: #df4a32;
+}
+/* drag */
+::-moz-selection {
+  background: #eeeeee;
+  color: #ffffff;
+}
+
+::selection {
+  background: #eeeeee;
+  color: #ffffff;
+}
+/* ↑ COLOR ↑ */
+ /* ↓ FONT ↓ */
+ /* Height */
  h1,
  h2,
  h3,
- h4,
- h5,
- h6 {
-   color: #000000;
+ h4 {
+   line-height: 1.4;
  }
 
  p {
-   color: #333333;
+   line-height: 1.8;
  }
-
+ /* Bold */
+ h1,
+ h2,
+ h3,
+ h4 {
+   font-weight: 700;
+ }
+ /* Medium */
+ p,
  a {
-   color: #190101;
+   font-weight: 500;
+ }
+ /* Size */
+ h1 {
+   font-size: 4.0rem;
+   font-size: 40px;
  }
 
- body {
-   color: #1c1d22;
+ h2 {
+   font-size: 3.2rem;
+   font-size: 32px;
  }
 
- .trade,
- .copy {
-   color: #dddddd;
+ h3 {
+   font-size: 2.4rem;
+   font-size: 24px;
  }
 
- .footer-icon {
-   background: #dddddd;
+ h4,
+ a {
+   font-size: 1.6rem;
+   font-size: 16px;
  }
 
- .footer-icon:hover {
-   background: #eeeeee;
+ p {
+   font-size: 1.4rem;
+   font-size: 14px;
  }
+/* Tablet only */
+ @media only screen and (max-width: 768px) {
+   h1 {
+     font-size: 3.2rem;
+     font-size: 32px;
+   }
 
- .footer-icon .icon {
-   fill: #aaaaaa;
-   opacity: 1;
+   h2 {
+     font-size: 2.4rem;
+     font-size: 24px;
+   }
+
+   h3 {
+     font-size: 1.6rem;
+     font-size: 16px;
+   }
+
+   h4,
+   a {
+     font-size: 1.2rem;
+     font-size: 12px;
+   }
  }
+ /* ↑ FONT ↑ */
+/* ↓ HEADER ↓ */
+header .greeting-name .catch{
+  font-size: 4.0rem;
+  font-size: 40px;
+  font-weight: 700;
+}
+/* Tablet only */
+@media only screen and (max-width: 768px) {
+  header .greeting-name .catch{
+    font-size: 3.2rem;
+    font-size: 32px;
+  }
+}
+/* ↑ HEADER ↑ */
 
- /* twitter */
-
- .icon-twitter:hover {
-   fill: #00b6f1;
- }
-
- /* facebook */
-
- .icon-facebook:hover {
-   fill: #3b5998;
- }
-
- /* instagram */
-
- .icon-instagram:hover {
-   fill: #c32aa3;
- }
-
- /* github */
-
- .icon-github:hover {
-   fill: #6e5494;
- }
-
- /* pinterest */
-
- .icon-pinterest:hover {
-   fill: #cb2027;
- }
-
- /* google+ */
-
- .icon-googleplus:hover {
-   fill: #df4a32;
- }
-
- /* drag */
-
- ::-moz-selection {
-   background: #eeeeee;
-   color: #ffffff;
- }
-
- ::selection {
-   background: #eeeeee;
-   color: #ffffff;
- }
-
- /* font */
 
  header .self-introduction {
    font-size: 18px;
@@ -205,6 +313,7 @@
      margin-bottom: 25px;
      margin-bottom: 2.5rem;
    }
+
    header .title {
      font-size: 25px;
      font-size: 2.5rem;
@@ -213,10 +322,12 @@
      margin-bottom: 25px;
      margin-bottom: 2.5rem;
    }
+
    header .sentence {
      font-size: 14px;
      font-size: 1.4rem;
    }
+
    .container .work-theme {
      font-size: 25px;
      font-size: 2.5rem;
@@ -230,17 +341,10 @@
  /* layout */
 
  html {
-   border: 8px solid #1c1d22;
+   border: 8px solid #1C1D22;
  }
 
  body {
-   font-size: 14px;
-   font-size: 1.4rem;
-   font-weight: 400;
-   line-height: 22px;
-   line-height: 2.2rem;
-   font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-   background: #ffffff;
    height: auto;
    min-height: 100vh;
    display: -webkit-box;
