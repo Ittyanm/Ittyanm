@@ -1,0 +1,46 @@
+
+header .self-introduction {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 36px;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+  margin-top: 45px;
+  margin-top: 4.5rem;
+}
+
+header .top-title {
+  font-size: 120px;
+  font-size: 12rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 132px;
+  line-height: 13.2rem;
+  letter-spacing: 0;
+  margin-bottom: 60px;
+  margin-bottom: 6.0rem;
+}
+
+header .title {
+  font-size: 30px;
+  font-size: 3rem;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  line-height: 48px;
+  line-height: 4.8rem;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+  margin-bottom: 3.0rem;
+}
+
+header .sentence {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 36px;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+  margin-bottom: 60px;
+  margin-bottom: 6.0rem;
+}
