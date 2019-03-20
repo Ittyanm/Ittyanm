@@ -353,7 +353,7 @@ header {
 header .border {
   display: inline-block;
   width: 100px;
-  height: 1px;
+  height: 2px;
   background: #000;
 
 }
