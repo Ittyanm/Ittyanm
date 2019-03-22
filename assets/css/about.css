@@ -118,6 +118,9 @@ header .sentence {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 /* Tablet only */
 @media only screen and (max-width: 768px) {
