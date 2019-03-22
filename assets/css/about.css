@@ -95,19 +95,6 @@ header .sentence {
 
 /* ↓ CAREERS ↓ */
 .career {
-  height: 46px;
-  /*
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-*/
   border-bottom: 2px solid #D8D8D8;
 }
 
@@ -130,6 +117,7 @@ header .sentence {
   flex-grow: 1;
   min-width: 252px;
   font-size: 16px;
+  line-height: 48px;
 }
 
 .career-employer,
