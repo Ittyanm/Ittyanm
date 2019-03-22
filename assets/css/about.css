@@ -56,6 +56,7 @@ header .sentence {
   margin-bottom: 60px;
   margin-bottom: 6.0rem;
 }
+
 /* font-smartphone only */
 
 @media only screen and (max-width: 768px) {
@@ -95,7 +96,7 @@ header .sentence {
 /* ↓ CAREERS ↓ */
 .career {
   height: 46px;
-/*
+  /*
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,6 +123,24 @@ header .sentence {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+.career ol li {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 252px;
+  font-size: 16px;
+}
+
+.career-employer,
+.career-title {
+  text-align: left;
+}
+
+.career-period {
+  text-align: right;
+}
+
 /* Tablet only */
 @media only screen and (max-width: 768px) {
   .career ol {
@@ -130,5 +149,10 @@ header .sentence {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
+  .career-period {
+    text-align: left;
+  }
 }
+
 /* ↑ CAREERS ↑ */
