@@ -56,6 +56,41 @@ header .sentence {
   margin-bottom: 60px;
   margin-bottom: 6.0rem;
 }
+/* font-smartphone only */
+
+@media only screen and (max-width: 768px) {
+  header .top-title {
+    font-size: 50px;
+    font-size: 5rem;
+    line-height: 55px;
+    line-height: 5.5rem;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+  }
+
+  header .title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 40px;
+    line-height: 4.0rem;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+  }
+
+  header .sentence {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+  .container .work-theme {
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 40px;
+    line-height: 4.0rem;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+  }
+}
 
 /* ↓ CAREERS ↓ */
 .career {
