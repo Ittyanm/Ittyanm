@@ -56,3 +56,41 @@ header .sentence {
   margin-bottom: 60px;
   margin-bottom: 6.0rem;
 }
+
+/* ↓ CAREERS ↓ */
+.career {
+  height: 46px;
+/*
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+*/
+  border-bottom: 2px solid #D8D8D8;
+}
+
+.career ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+/* Tablet only */
+@media only screen and (max-width: 768px) {
+  .career ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* ↑ CAREERS ↑ */
