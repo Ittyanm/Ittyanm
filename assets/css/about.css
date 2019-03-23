@@ -11,12 +11,22 @@
 @media only screen and (max-width: 480px) {}
 
 /* ↑ BREAKPOINT ↑ */
+
+/* ↓ LAYOUT ↓ */
 .container .message,
 .container .careers,
-.containe .avatar{
-  padding: 46px 12px;
+.container .avatar{
+  padding: 40px 12px;
 }
-
+/* Tablet only */
+@media only screen and (max-width: 768px) {
+  .container .message,
+  .container .careers,
+  .container .avatar{
+    padding: 20px 0;
+  }
+}
+/* ↑ LAYOUT ↑ */
 
 header .self-introduction {
   font-size: 18px;
@@ -166,13 +176,13 @@ header .sentence {
   width: 100px;
   border-radius: 50px;
   background: #e2e2e2 url(../img/about/about-image01.jpg) 32% 32% / 152% no-repeat;
-  margin: 120px auto 0;
+  margin: 0 auto;
 }
 
 /* Tablet only */
 @media only screen and (max-width: 768px) {
   .avatar-icon {
-    margin: 60px auto 0;
+
   }
 }
 
