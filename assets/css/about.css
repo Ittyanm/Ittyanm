@@ -137,7 +137,10 @@ header .sentence {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-
+  .career ol li {
+    font-size: 12px;
+    line-height: 36px;
+  }
   .career-period {
     text-align: left;
   }
