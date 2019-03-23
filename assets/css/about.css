@@ -157,6 +157,10 @@ header .sentence {
 }
 
 /* Tablet only */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .avatar-icon {
+    margin: 60px auto 0;
+  }
+}
 
 /* ↑ AVATAR ↑ */
