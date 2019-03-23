@@ -123,8 +123,23 @@ header .sentence {
 .message p{
   text-align: left;
 }
+.message ol{
+  list-style-position: inside;
+  list-style-type: disc;
+}
+.message ol li {
+  min-width: 244px;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: left;
+}
 /* Tablet only */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .message ol li {
+    font-size: 12px;
+    line-height: 36px;
+  }
+}
 
 /* ↑ MESSAGE ↑ */
 
