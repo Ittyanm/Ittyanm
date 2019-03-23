@@ -95,7 +95,7 @@ header .sentence {
 
 /* ↓ CAREERS ↓ */
 .career {
-  border-bottom: 2px solid #D8D8D8;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .career ol {
@@ -144,3 +144,16 @@ header .sentence {
 }
 
 /* ↑ CAREERS ↑ */
+/* ↓ AVATAR ↓ */
+.avatar-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: #e2e2e2 url(../img/about/about-image01.jpg) 32% 32% / 152% no-repeat;
+  margin: 120px auto 0;
+}
+
+/* Tablet only */
+@media only screen and (max-width: 768px) {}
+
+/* ↑ AVATAR ↑ */
