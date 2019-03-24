@@ -83,7 +83,10 @@ header .sentence {
   margin-bottom: 60px;
   margin-bottom: 6.0rem;
 }
-
+header.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 /* font-smartphone only */
 
 @media only screen and (max-width: 768px) {
