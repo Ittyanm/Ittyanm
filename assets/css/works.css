@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* BRANDCOLOR : #1C1D22 */
+/* ↓ BREAKPOINT ↓ */
+/* Display only */
+@media only screen and (max-width: 1024px) {}
+
+/* Tablet only */
+@media only screen and (max-width: 768px) {}
+
+/* Smartphone only */
+@media only screen and (max-width: 480px) {}
+
+/* ↑ BREAKPOINT ↑ */
+
+/* ↓ HEADER ↓ */
+
+header .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablet only */
+@media only screen and (max-width: 768px) {}
+
+
+/* ↑ HEADER ↑ */
