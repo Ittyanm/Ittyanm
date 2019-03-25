@@ -399,7 +399,7 @@ aside {
   -webkit-box-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  min-height: 100vh;
+  height: 100vh;
   overflow-y: scroll;
   text-align: center;
   background: #ffffff;
